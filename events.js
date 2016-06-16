@@ -9,6 +9,7 @@ function start () {
   one();
   two();
   three();
+  four();
 
   // Your turn! Create a new function called `two`, then call it from here.
 }
@@ -50,6 +51,16 @@ function three () {
 }
 
 // CREATE FUNCTION four HERE
+function four () {
+// Find element four:
+var four = document.getElementById('four');
+
+// Add an event listener to the element:
+four.addEventListener('click', makeGreen);
+
+// Add an event listener to make white on
+four.addEventListener('dblclick', makeWhite);
+}
 
 // Changes the background color of event's target
 function makeBlue (evt) {
