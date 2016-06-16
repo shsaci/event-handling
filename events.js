@@ -58,7 +58,7 @@ var four = document.getElementById('four');
 // Add an event listener to the element:
 four.addEventListener('click', makeGreen);
 
-// Add an event listener to make white on
+// Add an event listener to make white on doubleClick
 four.addEventListener('dblclick', makeWhite);
 }
 
